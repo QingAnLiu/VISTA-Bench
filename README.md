@@ -180,375 +180,452 @@ python /VISTA-Bench/VLMEvalKit/run.py \
       <th style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">Text</th>
     </tr>
   </thead>
-  <tbody>
-    <!-- ===== Group: 2B ===== -->
-    <tr>
-      <td colspan="12" style="border:1px solid #cfd7e3; padding:10px; background:#ebf5ff; font-weight:700;">
-        ▼ Vision-Language Models (2B)
-      </td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">DeepSeek-VL2-Tiny</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">44.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">64.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">31.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">43.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">28.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.6</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">41.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">31.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">43.1</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e9c3c3; color:#c80000; font-weight:600;">↓-11.4</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Qwen3-VL-2B-Instruct</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">51.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>69.0</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">32.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">49.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">17.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">24.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">37.2</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">52.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">33.9</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">47.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e6b6b6; color:#c80000; font-weight:600;">↓-13.6</td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Ovis2-2B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">58.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">66.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">39.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">52.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">31.2</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">36.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">50.2</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">38.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">48.9</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#eac8c8; color:#c80000; font-weight:600;">↓-10.1</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">NEO-2B-SFT</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">40.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">68.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">31.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">49.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">25.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">37.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">29.4</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">53.4</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">30.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">51.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#d89a9a; color:#c80000; font-weight:600;">↓-20.5</td>
-    </tr>
-    <tr style="background:#ffffff; color:#5a5a5a;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Qwen2.5-VL-3B-Instruct</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">65.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">67.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">43.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">54.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>32.5</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">35.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>54.8</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">56.6</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>48.6</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">52.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f0e0e0; color:#c80000; font-weight:600;">↓-4.2</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">InternVL3.5-2B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">56.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">66.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">39.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">50.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">30.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>39.8</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">44.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>57.0</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">42.1</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">52.9</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e9c3c3; color:#c80000; font-weight:600;">↓-10.8</td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">SAIL-VL2-2B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>65.3</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>69.7</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>47.3</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>57.7</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>32.2</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">39.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">43.6</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">54.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">45.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>54.1</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#edd0d0; color:#c80000; font-weight:600;">↓-8.4</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Ovis2.5-2B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>66.3</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>69.7</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>51.7</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>58.0</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">28.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>39.5</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>51.8</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>60.0</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>48.5</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>56.1</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#eed3d3; color:#c80000; font-weight:600;">↓-7.6</td>
-    </tr>
-    <!-- ===== Group: 8B ===== -->
-    <tr>
-      <td colspan="12" style="border:1px solid #cfd7e3; padding:10px; background:#ebf5ff; font-weight:700;">
-        ▼ Vision-Language Models (8B)
-      </td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">LLaVA-1.5-7B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">33.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">58.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">44.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">26.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">27.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">24.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">48.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.1</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">44.1</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e0aaaa; color:#c80000; font-weight:600;">↓-17.0</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">LLaVA-OneVision-7B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">40.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">66.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">56.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">20.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">35.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">58.6</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">53.4</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#cf8f8f; color:#c80000; font-weight:600;">↓-25.6</td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Qwen2.5-VL-7B-Instruct</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">65.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">65.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">52.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">53.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">35.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">62.4</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">62.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">51.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">53.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f6f0f0; color:#c80000; font-weight:600;">↓-2.0</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">MiniCPM-V-4\_5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">64.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>71.6</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">45.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">60.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">31.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">36.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">50.4</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">55.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">47.2</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">54.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#eed4d4; color:#c80000; font-weight:600;">↓-7.1</td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Qwen3-VL-8B-Instruct</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">65.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">67.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">49.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">49.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">37.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">44.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">57.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">68.2</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">52.1</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">57.9</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f0dddd; color:#c80000; font-weight:600;">↓-5.8</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Ovis2-8B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">66.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">71.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">47.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">60.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">29.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">39.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">50.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">65.4</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">47.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">58.6</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8c5c5; color:#c80000; font-weight:600;">↓-11.1</td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">InternVL3.5-8B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">61.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">64.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">45.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">52.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">35.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">44.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">57.6</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">71.2</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">50.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">58.9</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#ecd0d0; color:#c80000; font-weight:600;">↓-8.9</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">MiMo-VL-7B-RL</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>70.3</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">69.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">58.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">61.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>40.5</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">38.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">69.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">68.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">59.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">59.2</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e9f2ec; color:#009900; font-weight:700;">↑+0.3</td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">NEO-9B-SFT</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">32.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">69.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">29.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">58.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">24.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">40.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">28.6</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">69.2</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">28.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">59.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#c77f7f; color:#c80000; font-weight:700;">↓-30.8</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">LLaVA-OneVision-1.5-8B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">62.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">68.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">46.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">59.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">33.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">42.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">57.4</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">67.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">49.9</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">59.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#ebcdcd; color:#c80000; font-weight:600;">↓-9.6</td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">MiMo-VL-7B-SFT</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">68.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">69.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>61.3</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>62.7</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>40.5</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">41.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>70.6</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">72.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>60.3</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">61.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#fbf7f7; color:#c80000; font-weight:600;">↓-1.0</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">SAIL-VL2-8B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">68.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">70.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">54.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">60.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">37.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">44.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">58.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">71.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">54.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">61.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#edd0d0; color:#c80000; font-weight:600;">↓-7.7</td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Ovis2.5-9B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">68.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">69.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">56.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>65.3</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">38.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>52.0</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">66.0</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>73.8</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">57.3</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>65.3</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#ecd0d0; color:#c80000; font-weight:600;">↓-8.0</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">GLM-4.1V-9B-Thinking</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>70.7</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>71.3</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>58.7</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">61.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>50.0</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>52.5</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>73.8</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>75.8</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>63.8</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>65.9</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f6f0f0; color:#c80000; font-weight:600;">↓-2.1</td>
-    </tr>
-    <!-- ===== Group: 30B-A3B ===== -->
-    <tr>
-      <td colspan="12" style="border:1px solid #cfd7e3; padding:10px; background:#ebf5ff; font-weight:700;">
-        ▼ Vision-Language Models (30B-A3B)
-      </td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Kimi-VL-A3B-Thinking</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>69.0</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>71.0</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">49.7</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>61.7</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">30.8</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">33.5</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">52.6</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">66.4</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">49.4</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">57.6</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#ecd0d0; color:#c80000; font-weight:600;">↓-8.2</td>
-    </tr>
-    <tr style="background:#f7f9fb;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Qwen3-VL-30B-A3B-Instruct</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>64.3</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>71.0</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>51.0</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>60.0</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>33.0</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>44.0</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>54.2</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>71.0</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>49.9</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>61.6</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8c5c5; color:#c80000; font-weight:600;">↓-11.7</td>
-    </tr>
-    <tr style="background:#ffffff;">
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">InternVL3.5-30B-A3B</td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>64.3</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>70.3</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>50.3</u></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>61.7</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>40.8</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>50.3</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>61.8</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>75.2</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>54.4</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>64.9</strong></td>
-      <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e9c3c3; color:#c80000; font-weight:600;">↓-10.5</td>
-    </tr>
+    <tbody>
+      <tr>
+        <td colspan="12" style="border:1px solid #cfd7e3; padding:10px; background:#ebf5ff; font-weight:700;">
+          ▼ Closed-source Vision-Language Models
+        </td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Gemini-3.1-Pro-Preview</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>72.0</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>74.0</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>73.3</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>76.0</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>80.5</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>82.3</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>89.4</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>90.0</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>80.3</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>81.9</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f8f1f1; color:#c80000; font-weight:600;">↓ -1.6</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">GPT-5.2</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>57.7</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>67.7</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>53.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>63.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>46.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>58.8</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>70.2</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>83.2</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>57.8</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>69.5</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e7caca; color:#c80000; font-weight:600;">↓ -11.7</td>
+      </tr>
+      <tr>
+        <td colspan="12" style="border:1px solid #cfd7e3; padding:10px; background:#ebf5ff; font-weight:700;">
+          ▼ Large-scale Vision-Language Models
+        </td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Qwen3.5-122B-A10B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>71.7</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>74.0</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>72.3</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>74.7</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>67.8</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>78.8</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>86.0</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>86.6</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>75.5</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>79.6</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f4e7e7; color:#c80000; font-weight:600;">↓ -4.1</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">GLM-4.6V</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>70.3</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>71.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>67.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>68.7</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>63.3</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>69.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>80.8</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>82.6</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>71.3</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>73.9</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f7eded; color:#c80000; font-weight:600;">↓ -2.6</td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">InternVL3.5-241B-A28B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">68.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">67.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">56.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">67.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">43.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">61.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">65.2</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">82.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">58.2</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">71.9</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e4c2c2; color:#c80000; font-weight:600;">↓ -13.7</td>
+      </tr>
+      <tr>
+        <td colspan="12" style="border:1px solid #cfd7e3; padding:10px; background:#ebf5ff; font-weight:700;">
+          ▼ Vision-Language Models (30B)
+        </td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Qwen3-VL-30B-A3B-Instruct</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>64.3</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>71.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>51.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">60.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">35.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>58.0</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">54.6</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>75.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">50.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>66.7</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e0b9b9; color:#c80000; font-weight:600;">↓ -15.9</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">InternVL3.5-30B-A3B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>64.3</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">70.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">50.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>61.7</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>41.8</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>52.5</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>61.8</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>75.2</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>54.7</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>65.5</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e9cdcd; color:#c80000; font-weight:600;">↓ -10.8</td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Kimi-VL-A3B-Thinking</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>70.0</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>71.3</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>52.7</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>66.0</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>41.8</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">43.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>59.4</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">68.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>55.5</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">62.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f0dede; color:#c80000; font-weight:600;">↓ -6.5</td>
+      </tr>
+      <tr>
+        <td colspan="12" style="border:1px solid #cfd7e3; padding:10px; background:#ebf5ff; font-weight:700;">
+          ▼ Vision-Language Models (8B)
+        </td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">GLM-4.1V-9B-Thinking</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>70.7</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>71.3</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">58.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">61.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>51.3</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>57.5</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>73.8</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>75.8</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>64.1</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>67.2</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f6ebeb; color:#c80000; font-weight:600;">↓ -3.1</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Ovis2.5-9B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">68.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">69.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">56.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>65.7</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">40.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>56.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">66.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">73.4</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">57.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>66.4</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#ecd5d5; color:#c80000; font-weight:600;">↓ -8.7</td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">MiMo-VL-7B-SFT</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>68.7</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">69.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>61.3</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>63.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>46.5</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">47.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>71.4</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>76.0</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>62.2</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">64.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f7eeee; color:#c80000; font-weight:600;">↓ -2.3</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">SAIL-VL2-8B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>68.7</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">70.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">54.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">60.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">37.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">45.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">58.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">71.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">54.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">62.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#eed8d8; color:#c80000; font-weight:600;">↓ -8.0</td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">MiMo-VL-7B-RL</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>70.7</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">69.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>59.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">62.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">45.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">44.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">70.4</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">71.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">61.6</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">61.9</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#faf6f6; color:#c80000; font-weight:600;">↓ -0.3</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">LLaVA-OneVision-1.5-8B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">62.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">68.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">46.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">59.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">34.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">44.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">57.4</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">67.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">50.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">60.1</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#ead0d0; color:#c80000; font-weight:600;">↓ -10.1</td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">NEO-9B-SFT</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">32.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">69.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">29.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">58.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">25.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">41.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">28.6</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">69.2</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">28.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">59.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#c77f7f; color:#c80000; font-weight:600;">↓ -31.0</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">InternVL3.5-8B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">61.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">64.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">45.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">52.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">36.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">45.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">57.6</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">71.2</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">50.2</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">59.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#ecd4d4; color:#c80000; font-weight:600;">↓ -9.1</td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Qwen3-VL-8B-Instruct</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">65.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">67.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">49.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">49.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">37.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">48.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">58.2</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">68.4</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">52.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">59.1</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f0dddd; color:#c80000; font-weight:600;">↓ -6.7</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Ovis2-8B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">66.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">71.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">47.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">60.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">29.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">41.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">50.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">65.4</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">47.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">58.9</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8cbcb; color:#c80000; font-weight:600;">↓ -11.3</td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Qwen2.5-VL-7B-Instruct</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">65.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">65.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">52.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">53.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">37.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">62.4</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">62.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">51.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">54.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f6eded; color:#c80000; font-weight:600;">↓ -2.7</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">MiniCPM-V-4_5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">64.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>71.6</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">45.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">60.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">31.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">36.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">50.4</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">55.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">47.2</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">54.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#efdcdc; color:#c80000; font-weight:600;">↓ -7.1</td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">LLaVA-OneVision-7B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">40.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">66.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">56.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">20.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">35.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">58.6</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">28.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">53.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#d09494; color:#c80000; font-weight:600;">↓ -25.5</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">LLaVA-1.5-7B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">33.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">58.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">28.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">44.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">28.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">24.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">48.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.6</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">44.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#dfb6b6; color:#c80000; font-weight:600;">↓ -16.7</td>
+      </tr>
+      <tr>
+        <td colspan="12" style="border:1px solid #cfd7e3; padding:10px; background:#ebf5ff; font-weight:700;">
+          ▼ Vision-Language Models (2B / 3B)
+        </td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Ovis2.5-2B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>66.3</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>70.0</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>51.7</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>58.7</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">29.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>43.3</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>51.8</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>60.4</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>48.7</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>57.4</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#ecd5d5; color:#c80000; font-weight:600;">↓ -8.7</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">SAIL-VL2-2B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>65.3</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>69.7</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>47.3</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>57.7</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><u>32.8</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">40.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">43.6</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">54.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">45.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>54.5</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#ecd5d5; color:#c80000; font-weight:600;">↓ -8.7</td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">InternVL3.5-2B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">56.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">66.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">39.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">50.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">30.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>41.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">45.4</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><u>57.0</u></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">42.4</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">53.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e9cdcd; color:#c80000; font-weight:600;">↓ -10.9</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Qwen2.5-VL-3B-Instruct</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">65.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">67.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">43.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">54.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>33.3</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">36.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>54.8</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">56.6</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;"><strong>48.8</strong></td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">52.9</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f4e7e7; color:#c80000; font-weight:600;">↓ -4.1</td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">NEO-2B-SFT</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">40.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">68.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">31.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">49.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">25.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">38.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">29.4</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">53.4</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">30.9</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">51.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#d8a7a7; color:#c80000; font-weight:600;">↓ -20.7</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Qwen3-VL-2B-Instruct</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">56.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">69.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">41.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">49.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">26.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">27.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">49.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">56.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">43.1</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">49.6</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#f0dede; color:#c80000; font-weight:600;">↓ -6.5</td>
+      </tr>
+      <tr style="background:#ffffff;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">Ovis2-2B</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">58.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">66.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">39.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">52.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">31.5</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">36.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">50.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">39.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">49.1</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#ead0d0; color:#c80000; font-weight:600;">↓ -10.1</td>
+      </tr>
+      <tr style="background:#f7f9fb;">
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">DeepSeek-VL2-Tiny</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">44.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">64.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">31.3</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">41.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">29.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">27.6</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">41.8</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">31.7</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">42.9</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8cccc; color:#c80000; font-weight:600;">↓ -11.1</td>
+      </tr>
   </tbody>
 </table>
 <p style="margin-top:8px; color:#555;">
