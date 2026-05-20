@@ -9,6 +9,9 @@
 </p>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2602.04802">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2602.04802-b31b1b.svg">
+  </a>
   <img alt="License" src="https://img.shields.io/badge/license-TBD-lightgrey">
   <img alt="Dataset" src="https://img.shields.io/badge/dataset-1500%20instances-blue">
   <img alt="Tasks" src="https://img.shields.io/badge/tasks-MCQ%20%2B%20Open--ended-orange">
