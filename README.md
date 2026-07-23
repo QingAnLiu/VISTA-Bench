@@ -253,7 +253,7 @@ python /VISTA-Bench/VLMEvalKit/run.py \
       <tr style="background:#ffffff;">
         <td style="border:1px solid #cfd7e3; padding:10px; text-align:left;">InternVL3.5-241B-A28B</td>
         <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">68.0</td>
-        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">67.0</td>
+        <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;"><strong>74.0</strong></td>
         <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">56.3</td>
         <td style="border:1px solid #cfd7e3; padding:10px; text-align:center; background:#e8e8e8;">67.0</td>
         <td style="border:1px solid #cfd7e3; padding:10px; text-align:center;">43.5</td>
